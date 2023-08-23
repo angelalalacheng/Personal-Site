@@ -39,18 +39,12 @@ const Resume = () => (
           </div>
         </div>
       </header>
-<<<<<<< HEAD
-      {Object.entries(sections).map(([name, Section]) => (
-        <Section key={name} />
-      ))}
-=======
       <Education data={degrees} />
       <Experience data={positions} />
       {/* <Skills skills={skills} categories={categories} />
       <Courses data={courses} />
       <References /> */}
 
->>>>>>> 9e796d0 (1001 update)
     </article>
   </Main>
 );
