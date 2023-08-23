@@ -31,5 +31,6 @@ const About = () => (
     </article>
   </Main>
 );
+}
 
 export default About;
